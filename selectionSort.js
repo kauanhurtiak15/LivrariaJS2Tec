@@ -10,9 +10,9 @@ for (let atual = 0; atual < livros.length; atual++){
 
     let  livroMenorPreco = livros[menor];
 
-    console.log("Livro com menor preço:", livro[menor]);
+    console.log("Livro com menor preço:", livros[menor]);
 
-    livros[atual] = livroMenorPreco;
+    livros[atual] = livros[menor];
     livros[menor] = livroAtual;
 }
 console.log(livros)
