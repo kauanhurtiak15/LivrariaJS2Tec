@@ -1,4 +1,4 @@
-let livros = require('./listaLivros')
+
 
 function menorValor(arrProdutos, posicaoInicial){
 
